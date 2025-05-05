@@ -10,7 +10,7 @@ export class Orquesta {
         console.log(this.getInstrumentos())
     }
 
-    setInstrumento(instrumento: Instrumento) {
+    setInstrumento(instrumento: Instrumento):void {
         this.instrumentos.push(instrumento)
     }
 
